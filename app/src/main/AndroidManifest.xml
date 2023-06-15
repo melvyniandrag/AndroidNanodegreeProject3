@@ -4,6 +4,9 @@
 
     <!-- Need INTERNET permission to download. I see in logcat that we can also use grantUriPermission(), but I dont know about that. -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
 
     <application
         android:allowBackup="true"
